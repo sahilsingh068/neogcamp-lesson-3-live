@@ -2,6 +2,9 @@
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+:root {
+    --primary-color:#991B1B;
+}
 .container 
 {
     padding-left: 1rem;
@@ -10,4 +13,18 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color)
 }
