@@ -74,3 +74,14 @@ hr{
 .ow {
     background-color: var(--off-white);
 }
+.footer {
+    background-color: brown;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+
+}
+.footer .link {
+    color: white;
+}
